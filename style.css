@@ -37,9 +37,9 @@ h1, h2, h3, .lil { font-family: "Lilita One", Nunito, sans-serif; font-weight: 4
 .tag.pink { background: var(--pink); color: #fff; }
 
 /* in-game menu backdrops */
-.stars { position: absolute; inset: 0; background: url(assets/stars.webp) 0 0 / 160px; opacity: .08; animation: pan 24s linear infinite; pointer-events: none; }
+.stars { position: absolute; inset: 0; background: url(https://cdn.jsdelivr.net/gh/StumbleCups/stumblecups.github.io@main/assets/stars.webp) 0 0 / 160px; opacity: .08; animation: pan 24s linear infinite; pointer-events: none; }
 @keyframes pan { to { background-position: 160px 160px; } }
-.rays { position: absolute; left: 50%; top: 36%; width: 1500px; height: 1500px; margin: -750px 0 0 -750px; background: url(assets/rays.webp) center / contain no-repeat; opacity: .4; animation: spin 80s linear infinite; pointer-events: none; }
+.rays { position: absolute; left: 50%; top: 36%; width: 1500px; height: 1500px; margin: -750px 0 0 -750px; background: url(https://cdn.jsdelivr.net/gh/StumbleCups/stumblecups.github.io@main/assets/rays.webp) center / contain no-repeat; opacity: .4; animation: spin 80s linear infinite; pointer-events: none; }
 @keyframes spin { to { rotate: 360deg; } }
 .wave { position: absolute; left: 0; right: 0; bottom: -1px; width: 100%; height: 70px; z-index: 1; }
 
@@ -181,7 +181,7 @@ section { position: relative; overflow: hidden; padding: 80px 0; }
 .perf-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
 .perf ul { list-style: none; margin-top: 26px; display: grid; gap: 14px; }
 .perf li { position: relative; padding-left: 38px; font-size: 18px; line-height: 1.5; color: #dce4ff; }
-.perf li::before { content: ""; position: absolute; left: 0; top: 1px; width: 26px; height: 26px; background: url(assets/star.webp) center / contain no-repeat; }
+.perf li::before { content: ""; position: absolute; left: 0; top: 1px; width: 26px; height: 26px; background: url(https://cdn.jsdelivr.net/gh/StumbleCups/stumblecups.github.io@main/assets/star.webp) center / contain no-repeat; }
 .perf li b { color: #fff; font-weight: 800; }
 @media (max-width: 880px) { .perf-grid { grid-template-columns: 1fr; gap: 44px; } }
 
